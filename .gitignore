@@ -4,4 +4,8 @@ __pycache__/
 *.log
 airflow.db
 data/
-simple_auth_manager_passwords.json.generated
+simple_auth_manager_passwords.json.generated.mypy_cache/
+__pycache__/
+.venv/
+*.pyc
+.DS_Store

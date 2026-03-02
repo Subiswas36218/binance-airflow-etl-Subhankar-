@@ -1,0 +1,12 @@
+{"timestamp":"2026-03-02T01:13:45.248009Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-02T01:13:45.248416Z","level":"info","event":"Filling up the DagBag from /Users/subhankarbiswas/airflow/dags/Lecture-2/14_binance_calculate_daily.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-02T01:13:45.265129Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.267471Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.267535Z","level":"info","event":"Current task name:calculate_daily_average","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.270151Z","level":"info","event":"Dag name:binance_calculate_daily","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.270198Z","level":"info","event":"No hourly data file found at /data/binance/hourly/2026-03-02/hourly_avg.csv","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.270233Z","level":"info","event":"Waiting for hourly data to be collected...","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.267142Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-02T01:13:45.278670Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.278762Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-02T01:13:45.279367Z","level":"info","event":"Task operator:<Task(PythonOperator): calculate_daily_average>","logger":"task.stdout"}
